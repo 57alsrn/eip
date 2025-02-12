@@ -23,6 +23,14 @@ public class App {
 
 
         System.out.println( c  - 5);
+
+        int[] arr = {0,1,2};
+        System.out.println("arr > " + arr[2]);
+
+        Object[] d = {"hi", 0 };
+        for(int i = 0; i<d.length; i++){
+            System.out.println("d >> " + d[i]);
+        }
     }
    
 }
